@@ -1,0 +1,67 @@
+// 基本設定はまとめてインポートする形だと良き
+body {
+  max-width: 992px;
+  font-size: 20px;
+  color: white;
+  background: black;
+
+  a, a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+  header {
+    // scrollしてもheader固定する様にする
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // box-sizing: border-box;
+    // z-index: 20;
+    // position: fixed;
+    // overflow: hidden;
+
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+
+      li {
+        text-align: center;
+        border: solid 1px white;
+
+        a {
+          display: block;
+        }
+
+        &:hover {
+          background: rgb(173, 173, 255);
+          // 気が向いたらスタイリッシュな感じにグラデーションする
+          // background: linear-gradient(358deg, #000000, #ffffff);
+          // background-size: 400% 400%;
+          // animation: AnimationName 0s ease infinite;
+
+          // @keyframes AnimationName {
+          //   0%{background-position:100% 0%}
+          //   50%{background-position:0% 100%}
+          //   100%{background-position:100% 0%}
+          // }
+        }
+      }
+    }
+  }
+
+  main {
+    text-align: center;
+    img {
+      object-fit: cover;
+      height: 100px;
+    }
+  }
+
+  footer {
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    font-size: 14px;
+    text-align: center;
+  }
+}
