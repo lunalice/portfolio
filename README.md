@@ -9,6 +9,7 @@ Github pagesの挙動を見つつ、苦手なフロント（というか今ま�
 # あとやるかも
 vue/nuxt
 webpack
+フォルダ構成どうにか出来ないかなGithub pages・・・
 
 # やれないと確定したもの
 database（静的サイトなので・・・）

@@ -10,6 +10,10 @@ body a, body a:link, body a:visited, body a:hover, body a:active {
   text-decoration: none;
 }
 
+body header {
+  text-align: center;
+}
+
 body header ul {
   display: flex;
   list-style: none;
