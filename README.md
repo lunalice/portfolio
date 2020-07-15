@@ -7,7 +7,7 @@ Github pagesの挙動を見つつ、苦手なフロント（というか今ま�
 突貫工事になりそうなのであとやるかもを残しつつとりあえず形にする
 
 # あとやるかも
-vue/nuxt
+vue/nuxt（jqueryを無くす）
 webpack
 フォルダ構成どうにか出来ないかなGithub pages・・・
 

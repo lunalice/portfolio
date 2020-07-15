@@ -1,6 +1,5 @@
 // 基本設定はまとめてインポートする形だと良き
 body {
-  max-width: 992px;
   font-size: 20px;
   color: white;
   background: black;
@@ -10,21 +9,38 @@ body {
     text-decoration: none;
   }
 
+  .hero {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+    width: 100%;
+    padding: 0px;
+  }
+
   header {
+    color: white;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    z-index: 20;
+    position: fixed;
     text-align: center;
-    // scrollしてもheader固定する様にする
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // box-sizing: border-box;
-    // z-index: 20;
-    // position: fixed;
-    // overflow: hidden;
+    padding: auto;
+
+    h1 {
+      text-align: initial;
+      margin: 10px;
+    }
 
     ul {
-      display: flex;
       list-style: none;
-      align-items: center;
+      margin: 0;
 
       li {
         text-align: center;
@@ -53,6 +69,15 @@ body {
 
   main {
     text-align: center;
+    overflow: hidden;
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+
+    li {
+      text-align: initial;
+    }
+
     img {
       object-fit: cover;
       height: 100px;
@@ -64,5 +89,11 @@ body {
     border-bottom: solid 1px white;
     font-size: 14px;
     text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    z-index: 20;
+    position: fixed;
   }
 }

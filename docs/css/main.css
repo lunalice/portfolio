@@ -1,5 +1,4 @@
 body {
-  max-width: 992px;
   font-size: 20px;
   color: white;
   background: black;
@@ -10,14 +9,39 @@ body a, body a:link, body a:visited, body a:hover, body a:active {
   text-decoration: none;
 }
 
+body .hero {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  width: 100%;
+  padding: 0px;
+}
+
 body header {
+  color: white;
+  background: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  z-index: 20;
+  position: fixed;
   text-align: center;
+  padding: auto;
+}
+
+body header h1 {
+  text-align: initial;
+  margin: 10px;
 }
 
 body header ul {
-  display: flex;
   list-style: none;
-  align-items: center;
+  margin: 0;
 }
 
 body header ul li {
@@ -35,6 +59,14 @@ body header ul li:hover {
 
 body main {
   text-align: center;
+  overflow: hidden;
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body main li {
+  text-align: initial;
 }
 
 body main img {
@@ -47,4 +79,10 @@ body footer {
   border-bottom: solid 1px white;
   font-size: 14px;
   text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  z-index: 20;
+  position: fixed;
 }
