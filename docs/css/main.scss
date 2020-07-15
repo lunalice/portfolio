@@ -38,6 +38,10 @@ body {
       margin: 10px;
     }
 
+    nav {
+      // max-width: 992px;
+    }
+
     ul {
       list-style: none;
       margin: 0;
@@ -81,6 +85,10 @@ body {
     img {
       object-fit: cover;
       height: 100px;
+    }
+
+    th {
+      width: 100px;
     }
   }
 

@@ -74,6 +74,10 @@ body main img {
   height: 100px;
 }
 
+body main th {
+  width: 100px;
+}
+
 body footer {
   border-top: solid 1px white;
   border-bottom: solid 1px white;

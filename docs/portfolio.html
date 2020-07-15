@@ -1,10 +1,15 @@
 <html>
 
 <head>
-  <title>title</title>
+  <title>YamaP Testing Page</title>
+  <!-- 使うかわからないけどspectreは入れておく -->
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/application.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <!-- metaは気が向いたら書く -->
 </head>
@@ -12,26 +17,68 @@
 <body>
   <!-- Frameworkを使うならtemplateにする -->
   <header>
-    <h1><a href='./'>title</a></h1>
-    <ul class="columns">
-      <li class="col-2 col-mx-auto"><a href='./'>Home</a></li>
-      <li class="col-2 col-mx-auto"><a href='./profile.html'>Profile</a></li>
-      <li class="col-2 col-mx-auto"><a href='./portfolio.html'>Portfolio</a></li>
-      <li class="col-2 col-mx-auto"><a href='./skill.html'>Skill</a></li>
-      <li class="col-2 col-mx-auto"><a href='./gallery.html'>Gallery</a></li>
-      <li class="col-2 col-mx-auto"><a href='./contact.html'>Contact</a></li>
-    </ul>
+    <h1><a href='./'>YamaP Testing Page</a></h1>
+    <nav class="container grig-lg">
+      <ul class="columns">
+        <li class="col-3 col-mx-auto col-xs-4"><a href='./'>Home</a></li>
+        <li class="col-3 col-mx-auto col-xs-4"><a href='./profile.html'>Profile</a></li>
+        <li class="col-3 col-mx-auto col-xs-4"><a href='./portfolio.html'>Portfolio</a></li>
+        <li class="col-3 col-mx-auto col-xs-4"><a href='./gallery.html'>Gallery</a></li>
+      </ul>
+    </nav>
   </header>
+  <img class="hero" src='./img/home.jpg'>
   <!-- Frameworkを使うならtemplateにする -->
   <main>
+    <h1>Profile</h1>
     <img class='top' src='./img/my.jpg'>
-    <h1>section</h1>
-    <p>none</p>
-    <p>隙間時間でちょいちょいアップデートしていくシンプルなwebページ（webアプリは別で作る）</p>>
+    <table class="profile">
+      <tr>
+        <th>名前</th>
+        <td>
+          山下 智司（yamaP）
+        </td>
+      </tr>
+      <tr>
+        <th>住所</th>
+        <td>
+          都内（でも最近リモートワーク流行ってるのでどこでもいいのでは）
+        </td>
+      </tr>
+      <tr>
+        <th>趣味</th>
+        <td>
+          Youtube・ゲーム
+        </td>
+      </tr>
+      <tr>
+        <th>自分について</th>
+        <td>
+          ゲーム（ライフ） ＞ 生活 ＞＝ 仕事（ワーク）<br>
+          わりかし生活を犠牲にしてゲームしてますが、生きて行くためにはお金を稼がないと行けないのでお仕事もします（定時退社が理想）<br>
+          本業がゲームで副業がエンジニアってよく言われます。間違ってない、でもエンジニアで手を抜いてるわけもなく第２の人生はエンジニアだと思ってるので！！<br>
+          ガチエンジニア業の人よりお安い給料にはなりがちだけど毎日定時で帰ったりライフが充実してるならそれでも構わないと思ってます。<br>
+        </td>
+      </tr>
+      <tr>
+        <th>職業</th>
+        <td>
+          エンジニア/(ゲーマー)
+        </td>
+      </tr>
+      <tr>
+        <th>連絡先</th>
+        <td>
+          twitterまで
+        </td>
+      </tr>
+    </table>
+
   </main>
   <!-- Frameworkを使うならtemplateにする -->
-  <footer>
-    © 2020- yamaP inc.
+  <footer class="columns">
+    <div class="column col-8">連絡先はこちらまで twitter: <a href="https://twitter.com/yamashitaP">@yamashitaP</a></div>
+    <div class="column col-4">© 2020- yamaP inc.</div>
   </footer>
 </body>
 
