@@ -9,6 +9,11 @@ body a, body a:link, body a:visited, body a:hover, body a:active {
   text-decoration: none;
 }
 
+body section {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
 body .hero {
   z-index: -1;
   overflow: hidden;
@@ -85,12 +90,11 @@ body main .gallery {
 body main .gallery-item {
   object-fit: cover;
   height: 200px;
-  width: 200px;
-  margin: 5px;
+  margin-top: 5px 0;
 }
 
 body main th {
-  width: 100px;
+  width: 50px;
 }
 
 body footer {

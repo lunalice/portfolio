@@ -14,7 +14,7 @@ $(function () {
       let lines = data.split(/\r?\n/);
       lines.forEach(line => {
         if (line !== '') {
-          gallery.append(`<img class="gallery-item column col-4" src="img/gallery/${line}">`);
+          gallery.append(`<img class="gallery-item column col-4 col-xs-6" src="img/gallery/${line}">`);
         }
       });
     });

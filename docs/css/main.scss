@@ -9,6 +9,11 @@ body {
     text-decoration: none;
   }
 
+  section {
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+
   .hero {
     z-index: -1;
     overflow: hidden;
@@ -98,12 +103,11 @@ body {
     .gallery-item {
       object-fit: cover;
       height: 200px;
-      width: 200px;
-      margin: 5px;
+      margin-top: 5px 0;
     }
 
     th {
-      width: 100px;
+      width: 50px;
     }
   }
 

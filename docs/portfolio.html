@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>YamaP Testing Page</title>
+  <title>YamaP Testing</title>
   <!-- 使うかわからないけどspectreは入れておく -->
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
@@ -12,24 +12,25 @@
   <script type="text/javascript" src="js/application.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <!-- metaは気が向いたら書く -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 
 <body>
   <!-- Frameworkを使うならtemplateにする -->
   <header>
-    <h1><a href='./'>YamaP Testing Page</a></h1>
+    <h1><a href='./'>YamaP Testing</a></h1>
     <nav class="container grig-lg">
       <ul class="columns">
-        <li class="col-3 col-mx-auto col-xs-4"><a href='./'>Home</a></li>
-        <li class="col-3 col-mx-auto col-xs-4"><a href='./profile.html'>Profile</a></li>
-        <li class="col-3 col-mx-auto col-xs-4"><a href='./portfolio.html'>Portfolio</a></li>
-        <li class="col-3 col-mx-auto col-xs-4"><a href='./gallery.html'>Gallery</a></li>
+        <li class="col-3 col-mx-auto col-xs-6"><a href='./'>Home</a></li>
+        <li class="col-3 col-mx-auto col-xs-6"><a href='./profile.html'>Profile</a></li>
+        <li class="col-3 col-mx-auto col-xs-6"><a href='./portfolio.html'>Portfolio</a></li>
+        <li class="col-3 col-mx-auto col-xs-6"><a href='./gallery.html'>Gallery</a></li>
       </ul>
     </nav>
   </header>
-  <img class="hero" src='./img/home.jpg'>
+  <img class="hero" src='./img/portfolio.jpg'>
   <!-- Frameworkを使うならtemplateにする -->
-  <main>
+  <main class="container grig-lg">
     <h1>Portfolio</h1>
     <table class="profile">
       <tr>
@@ -47,7 +48,7 @@
       <tr>
         <th><a href="https://github.com/lunalice">Github</a></th>
         <td>
-          思えば仕事ばかりで自分で作って無かったなぁって・・・
+          思えば仕事ばかりで自分で作って無かったなぁって
         </td>
       </tr>
       <tr>
@@ -62,8 +63,83 @@
           準備中（いつか作ろうと思ってるオープンなコミュニティ調整アプリの予定、作るのに時間がかかりそうなので優先度が一番低め）
         </td>
       </tr>
+      <tr>
+        <th>2018（仕事）</th>
+        <td>
+          <img src="img/portfolio/2018.png">
+        </td>
+      </tr>
+      <tr>
+        <th>2019（仕事）</th>
+        <td>
+          <img src="img/portfolio/2019.png">
+        </td>
+      </tr>
+      <tr>
+        <th>2020（仕事）</th>
+        <td>
+          <img src="img/portfolio/2020.png">
+        </td>
+      </tr>
     </table>
-
+    <section>
+      <h2>Skill</h2>
+      <section>
+        <h3>保有資格</h3>
+        <ul>
+          <li>12cSQL</li>
+          <li>RUBY SILVER</li>
+          <li>Pythonエンジニア認定基礎</li>
+          <li>JAVA SILVER</li>
+          <li>PHP5技術者認定初級</li>
+        </ul>
+        <p>WEB未経験時代に取得。でも資格ってSESしたり受託したりする時の最低保証でしかないと思ってます。知識を数値化する意味だと不要って事もないとは思いますが・・・</p>
+      </section>
+      <section>
+        <h3>職歴</h3>
+        <section>
+          <h4>Sendyou inc(2018-08〜)</h4>
+          <p>
+            コドモブースター新規・保守（topics・categoryページ・スクレイピングとかとかいろいろ）<br>
+            コモリブ保守<br>
+            フロント・バック・インフラまで触らせて貰いました。<br>
+          </p>
+          <ul>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>Mysql</li>
+            <li>docker</li>
+            <li>Javascript</li>
+            <li>vue</li>
+            <li>aws</li>
+            <li>wordpress</li>
+            <li>github</li>
+            <li>shellscript</li>
+          </ul>
+          <p>その他いろいろ（凄く詳しいわけではありません</p>
+        </section>
+        <section>
+          <h4>SES企業(2014-10〜)</h4>
+          <p>
+            客先常駐にて指示を受ける派遣<br>
+            VBAとACCESSを使って時間のかかりそうな業務を一人で効率化してました<br>
+            最後のプロジェクトだと少しだけJavaを触れたくらい。
+          </p>
+          <ul>
+            <li>VBA</li>
+            <li>Access</li>
+            <li>Java</li>
+          </ul>
+          <p>暗黒の時代、エンジニアになろうと思ったのにただの派遣でした！合間にいろんな文明に触って腐らないように生きてました。</p>
+        </section>
+        <section>
+          <h4>フリーター(〜2014-09)</h4>
+          <p>
+            夢追い人でした、ただ夢に届かなかった為。第２の人生はエンジニアになろうと思い就職を決意。（もともと情報系の大学出なので）
+          </p>
+        </section>
+      </section>
+    </section>
   </main>
   <!-- Frameworkを使うならtemplateにする -->
   <footer class="columns">
