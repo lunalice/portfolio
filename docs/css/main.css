@@ -53,6 +53,7 @@ body header ul {
 body header ul li {
   text-align: center;
   border: solid 1px white;
+  margin: 0px;
 }
 
 body header ul li a {
@@ -112,6 +113,13 @@ body main .gallery-item {
   object-fit: cover;
   height: 200px;
   margin-top: 5px 0;
+}
+
+@media screen and (max-width: 480px) {
+  body main .portfolio-img {
+    height: 50px;
+    width: 100%;
+  }
 }
 
 body main th {

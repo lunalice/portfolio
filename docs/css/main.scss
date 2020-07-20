@@ -55,6 +55,7 @@ body {
       li {
         text-align: center;
         border: solid 1px white;
+        margin: 0px;
 
         a {
           display: block;
@@ -125,6 +126,15 @@ body {
       object-fit: cover;
       height: 200px;
       margin-top: 5px 0;
+    }
+
+
+
+    @media screen and (max-width:480px) {
+      .portfolio-img {
+        height: 50px;
+        width: 100%;
+      }
     }
 
     th {
