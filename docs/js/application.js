@@ -1,9 +1,9 @@
 // 暫定でjqueryでtopにdummyを置く
 $(function () {
   let height = $("header").height();
+  $("body").css("margin-top", height + 30);
   $(".hero").css("margin-top", height);
-  $("main").css("margin-top", height + 30);
-  $("main").css("margin-bottom", height + 10);
+  $("body").css("margin-bottom", 20);
 });
 
 // Galleryで画像の読み込み
